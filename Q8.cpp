@@ -10,21 +10,25 @@ int main()
     int id;
     std::cout<<"\nEnter your ID:";
     std::cin>>id;
-    if(id%3==0 && id%5==0)
+    int i;
+    for(i=1;i<=id;i++)
+    {
+    if(i%3==0 && i%5==0)
     {
         std::cout<<"\nBUZZ AND FUZZ";
     }
-    else if(id%3==0)
+    else if(i%3==0)
     {
         std::cout<<"\nBUZZ";
     }
-    else if(id%5==0)
+    else if(i%5==0)
     {
         std::cout<<"\nFUZZ";
     }
     else 
     {
-        std::cout<<"\nNO TAG AVAILABLE";
+        std::cout<<std::endl<<i;
     }
+}
     return 0;
 }
