@@ -25,7 +25,7 @@ int main()
             dup.push_back(val[i]);
         }
     }
-    cout<<"\nThe reversed array is:";
+    cout<<"\nThe compressed array is:";
     for(i=0;i<dup.size();i++)
     {
         cout<<"\n"<<dup[i];
